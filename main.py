@@ -1,4 +1,4 @@
-from UI import mostrarMenu, crearCuenta, depositarDinero, retirarDinero, mostrarDatosCuenta
+from Ui.UI import mostrarMenu, crearCuenta, depositarDinero, retirarDinero, mostrarDatosCuenta
 
 def main():
     cuentaClientes = []
