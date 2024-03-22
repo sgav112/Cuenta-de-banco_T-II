@@ -34,7 +34,9 @@ class Cuenta:
             print("Saldo insuficiente")
 
     def mostrarDatos(self):
-        print(f"Número de cuenta: {self.__numeroCuenta}")
-        print(f"Documento de identidad: {self.__documentoIdentidad}")
-        print(f"Nombre del cliente: {self.__nombreCliente}")
-        print(f"Saldo actual: {self.__saldoActual}")
+        print("===================================")
+        print(f"| Número de cuenta: {self.__numeroCuenta}")
+        print(f"| Documento de identidad: {self.__documentoIdentidad}")
+        print(f"| Nombre del cliente: {self.__nombreCliente}")
+        print(f"| Saldo actual: {self.__saldoActual}")
+        print("===================================")
